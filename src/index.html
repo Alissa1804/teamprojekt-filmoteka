@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmoteka</title>
+    <link rel="shortcut icon" type="image/svg" href="./images/film.svg" />
+    <link rel="stylesheet" href="./scss/index.scss">
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <main class="content">
+      <section class="movieGallery container">
+        <h1 class="visually-hidden">Main Filmoteka</h1>
+        <ul class="movieList"></ul>
+      </section>
+    </main>
+    <include src="./partials/pagination.html"></include>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal-window.html"></include>
+    <include src="./partials/about-modal.html"></include>
+    
+
+    <script type="module" src="./js/index.js"></script>
+    
+  </body>
+</html>
